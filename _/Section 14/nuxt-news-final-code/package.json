@@ -1,0 +1,35 @@
+{
+  "name": "nuxt-news",
+  "version": "1.0.0",
+  "description": "My supreme Nuxt.js project",
+  "author": "Reed Barger",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate",
+    "heroku-postbuild": "npm run build"
+  },
+  "dependencies": {
+    "@nuxtjs/axios": "^5.0.0",
+    "@nuxtjs/proxy": "^1.2.4",
+    "core-js": "^2.5.7",
+    "cross-env": "^5.2.0",
+    "date-fns": "^1.29.0",
+    "firebase": "^5.5.2",
+    "js-cookie": "^2.2.0",
+    "md5": "^2.2.1",
+    "node-fetch": "^2.3.0",
+    "nuxt": "^2.4.0",
+    "slugify": "^1.3.1",
+    "uuid": "^3.3.2",
+    "vue-material": "^1.0.0-beta-10.2",
+    "vuelidate": "^0.7.4"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.9",
+    "node-sass": "^4.9.3",
+    "sass-loader": "^7.1.0"
+  }
+}
